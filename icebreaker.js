@@ -2,7 +2,11 @@
 const faveMovie = "The Croods";
 const numbSiblings = 3;
 const seenInception = false;
-const vacationSpot = "Germany, Munich. To visit and drive on the autobahn";
+const vacationSpot = {
+    city: "munich",
+    country: "Germany",
+    toDo: "To drive on the Autobahn" 
+};
 
 
 console.log("Favorite Movie: ", faveMovie, ": Is a String");
